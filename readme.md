@@ -2,7 +2,16 @@
 
 This is my maintenance port of D-Load-Storage to Factorio 0.14.x and newer. --Mengmoshu
 
+# Changelog
+* 0.1.5 -
+* Fix missing `fuel_category`
+* 0.1.4 -
+* Update for 0.15.x
+* 0.1.3 -
+* Modified for 0.14.x compatibility
+
 ## Todo:
 * Add circuit network support to Wood/Iron/Steel versions
 * Add vanilla circuit connection sprite
 * Lengthen the rest of the chest sprites
+* Create prototypes by copying from `_base_`
