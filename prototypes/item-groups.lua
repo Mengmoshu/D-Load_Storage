@@ -6,6 +6,7 @@ data:extend(
     order = "c-1",
 	inventory_order = "c-1",
     icon = "__D-Load-Storage__/graphics/technology/icon-tab.png",
+    icon_size = 32,
   },
   {
     type = "item-subgroup",

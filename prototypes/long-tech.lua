@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "long-chests",
     icon = "__D-Load-Storage__/graphics/technology/icon-normal.png",
+    icon_size = 32,
     effects = {
 					{
 						type = "unlock-recipe",
@@ -47,6 +48,7 @@ data:extend(
     type = "technology",
     name = "logistic-long-chests",
     icon = "__D-Load-Storage__/graphics/technology/icon-logistic.png",
+    icon_size = 32,
     effects =
     {
       {

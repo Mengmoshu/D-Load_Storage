@@ -7,6 +7,8 @@ Not my work, I just made the basic changes to get the mod working on 0.14. I got
 --Mengmoshu
 
 # Changelog
+* 0.1.6 -
+* Update for 0.16.x
 * 0.1.5 -
 * Fix missing `fuel_category`
 * 0.1.4 -
