@@ -1,3 +1,19 @@
+
+	-- prepare circuit connectors
+	local connectorH = circuit_connector_definitions["chest"]
+	local connectorV = circuit_connector_definitions.create
+	(
+		universal_connector_template,
+		{
+			{
+				variation = 24,
+				main_offset = util.by_pixel(-16, 0),
+				shadow_offset = util.by_pixel(7.5, 7.5),
+				show_shadow = false,
+			},
+		}
+	)
+	
 data:extend(
 {
   {
@@ -22,7 +38,10 @@ data:extend(
       width = 216,
       height = 32,
       shift = {0.28, 0}
-    }
+    },
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
    {
     type = "container",
@@ -46,7 +65,10 @@ data:extend(
       width = 46,
       height = 158,
       shift = {0.26, 0}
-    }
+    },
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
     {
     type = "container",
@@ -70,7 +92,10 @@ data:extend(
       width = 208,
       height = 32,
       shift = {0.2, 0}
-    }
+    },
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
   {
     type = "container",
@@ -94,8 +119,13 @@ data:extend(
       width = 46,
       height = 158,
       shift = {0.20, 0}
-    }
+    },
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
+
+
   {
     type = "container",
     name = "long-steel",
@@ -118,7 +148,10 @@ data:extend(
       width = 208,
       height = 32,
       shift = {0.2, 0}
-    }
+    },
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
   {
     type = "container",
@@ -142,7 +175,10 @@ data:extend(
       width = 46,
       height = 158,
       shift = {0.20, 0}
-    }
+    },
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
   
 -- Logistics Chests
@@ -177,7 +213,9 @@ data:extend(
       height = 32,
       shift = {0.28, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
   {
     type = "logistic-container",
@@ -211,7 +249,9 @@ data:extend(
       height = 32,
       shift = {0.28, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
    {
     type = "logistic-container",
@@ -244,7 +284,9 @@ data:extend(
       height = 32,
       shift = {0.28, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
     {
     type = "logistic-container",
@@ -277,7 +319,9 @@ data:extend(
       height = 32,
       shift = {0.28, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorH.points,
+	circuit_connector_sprites = connectorH.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
   
   
@@ -312,7 +356,9 @@ data:extend(
       height = 160,
       shift = {0.1, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
     {
     type = "logistic-container",
@@ -346,7 +392,9 @@ data:extend(
       height = 192,
       shift = {0.1, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
    {
     type = "logistic-container",
@@ -379,7 +427,9 @@ data:extend(
       height = 160,
       shift = {0.1, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
     {
     type = "logistic-container",
@@ -412,7 +462,9 @@ data:extend(
       height = 160,
       shift = {0.1, 0}
     },
-    circuit_wire_max_distance = 10
+	circuit_wire_connection_point = connectorV.points,
+	circuit_connector_sprites = connectorV.sprites,
+	circuit_wire_max_distance = default_circuit_wire_max_distance
   },
 }
 )
