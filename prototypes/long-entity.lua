@@ -19,7 +19,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-wood.png",
       priority = "extra-high",
-      width = 216,
+      width = 200,
       height = 32,
       shift = {0.28, 0}
     }
@@ -67,7 +67,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-iron.png",
       priority = "extra-high",
-      width = 208,
+      width = 200,
       height = 32,
       shift = {0.2, 0}
     }
@@ -115,7 +115,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-steel.png",
       priority = "extra-high",
-      width = 208,
+      width = 200,
       height = 32,
       shift = {0.2, 0}
     }
@@ -173,7 +173,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-passive.png",
       priority = "extra-high",
-      width = 212,
+      width = 200,
       height = 32,
       shift = {0.28, 0}
     },
@@ -207,7 +207,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-requester.png",
       priority = "extra-high",
-      width = 212,
+      width = 200,
       height = 32,
       shift = {0.28, 0}
     },
@@ -240,7 +240,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-storage.png",
       priority = "extra-high",
-      width = 212,
+      width = 200,
       height = 32,
       shift = {0.28, 0}
     },
@@ -273,7 +273,7 @@ data:extend(
     {
       filename = "__D-Load-Storage__/graphics/entity/long-active.png",
       priority = "extra-high",
-      width = 212,
+      width = 200,
       height = 32,
       shift = {0.28, 0}
     },
