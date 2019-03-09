@@ -1,11 +1,11 @@
 {
 	"name":"D-Load-Storage",
-	"version":"0.1.6",
+	"version":"0.1.7",
 	"title":"D-load-Storage",
-    "author":"Damrus, Mengmoshu(0.14+ port)",
+    "author":"Damrus, Mengmoshu(0.14+ port), Maurabau (0.17 port)",
 	"homepage":"",
 	"description":"Long chests meant for the unloading of train cargo.",
 	"dependencies": ["base"],
     "Licence": "MIT",
-    "factorio_version": "0.16"
+    "factorio_version": "0.17"
 }
