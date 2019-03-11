@@ -1,6 +1,17 @@
 # D-Load-Storage
 Adds some 6 x 1 tile chests, ideal for use in train stations.
 
+This is the maintenance port for 0.17 by maurabau - a fork from Mengmoshu - to support his work - 
+
+- Grafics fixed for 0.17
+- Science fixed for 0.17
+
+
+
+old description:
+
+
+
 This is my maintenance port of D-Load-Storage to Factorio 0.14.x and newer. 
 
 Not my work, I just made the basic changes to get the mod working on 0.14. I got lazy and didn't adjust all the sprites, all the horizontal sprites are adjusted, but only the vertical Requester is adjusted among the vertical chests. Among the 0.14 changes was removing anything about Smart chests.
