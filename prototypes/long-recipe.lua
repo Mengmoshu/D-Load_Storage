@@ -3,13 +3,13 @@ data:extend(
   {
     type = "recipe",
     name = "long-wood",
-	enabled = false,
+    enabled = false,
     ingredients =
-	{
-		{"wood", 24},
-		{"fast-inserter", 6},
-		{"fast-transport-belt", 6}
-	},
+    {
+        {"wood", 24},
+        {"fast-inserter", 6},
+        {"fast-transport-belt", 6}
+    },
     result = "long-wood"
   },
   {
@@ -17,11 +17,11 @@ data:extend(
     name = "long-iron",
     enabled = false,
     ingredients =
-	{
-		{"iron-plate", 48},
-		{"fast-inserter", 6},
-		{"fast-transport-belt", 6}
-	},
+    {
+        {"iron-plate", 48},
+        {"fast-inserter", 6},
+        {"fast-transport-belt", 6}
+    },
     result = "long-iron"
   },
   {
@@ -29,21 +29,21 @@ data:extend(
     name = "long-steel",
     enabled = false,
     ingredients =
-	{
-		{"steel-plate", 48},
-		{"fast-inserter", 6},
-		{"fast-transport-belt", 6}
-	},
+    {
+        {"steel-plate", 48},
+        {"fast-inserter", 6},
+        {"fast-transport-belt", 6}
+    },
     result = "long-steel"
   },
   {
     type = "recipe",
     name = "long-wood-v",
-	enabled = false,
+    enabled = false,
     ingredients =
-	{
-		{"long-wood", 1}
-	},
+    {
+        {"long-wood", 1}
+    },
     result = "long-wood-v"
   },
   {
@@ -51,9 +51,9 @@ data:extend(
     name = "long-iron-v",
     enabled = false,
     ingredients =
-	{
-		{"long-iron", 1}
-	},
+    {
+        {"long-iron", 1}
+    },
     result = "long-iron-v"
   },
   {
@@ -61,24 +61,24 @@ data:extend(
     name = "long-steel-v",
     enabled = false,
     ingredients =
-	{
-		{"long-steel", 1}
-	},
+    {
+        {"long-steel", 1}
+    },
     result = "long-steel-v"
   },
 
-  
+
 -- Logistics Storage
-   {
+  {
     type = "recipe",
     name = "long-storage",
-	enabled = false,
+    enabled = false,
     ingredients =
-	{
-		{"long-steel-v", 1},
-		{"fast-inserter", 6},
-		{"advanced-circuit", 6}
-	},
+    {
+        {"long-steel-v", 1},
+        {"fast-inserter", 6},
+        {"advanced-circuit", 6}
+    },
     result = "long-storage"
   },
   {
@@ -86,22 +86,22 @@ data:extend(
     name = "long-storage-v",
     enabled = false,
     ingredients =
-	{
-		{"long-storage", 1},
-	},
+    {
+        {"long-storage", 1},
+    },
     result = "long-storage-v"
   },
 
     {
     type = "recipe",
     name = "long-requester",
-	enabled = false,
+    enabled = false,
     ingredients =
-	{
-		{"long-steel-v", 1},
-		{"fast-inserter", 6},
-		{"advanced-circuit", 6}
-	},
+    {
+        {"long-steel-v", 1},
+        {"fast-inserter", 6},
+        {"advanced-circuit", 6}
+    },
     result = "long-requester"
   },
   {
@@ -109,22 +109,22 @@ data:extend(
     name = "long-requester-v",
     enabled = false,
     ingredients =
-	{
-		{"long-requester", 1},
-	},
+    {
+        {"long-requester", 1},
+    },
     result = "long-requester-v"
   },
-  
+
    {
     type = "recipe",
     name = "long-passive",
-	enabled = false,
+    enabled = false,
     ingredients =
-	{
-		{"long-steel-v", 1},
-		{"fast-inserter", 6},
-		{"advanced-circuit", 6}
-	},
+    {
+        {"long-steel-v", 1},
+        {"fast-inserter", 6},
+        {"advanced-circuit", 6}
+    },
     result = "long-passive"
   },
   {
@@ -132,22 +132,22 @@ data:extend(
     name = "long-passive-v",
     enabled = false,
     ingredients =
-	{
-		{"long-passive", 1},
-	},
+    {
+        {"long-passive", 1},
+    },
     result = "long-passive-v"
   },
-  
+
    {
     type = "recipe",
     name = "long-active",
-	enabled = false,
+    enabled = false,
     ingredients =
-	{
-		{"long-steel-v", 1},
-		{"fast-inserter", 6},
-		{"advanced-circuit", 6}
-	},
+    {
+        {"long-steel-v", 1},
+        {"fast-inserter", 6},
+        {"advanced-circuit", 6}
+    },
     result = "long-active"
   },
   {
@@ -155,9 +155,9 @@ data:extend(
     name = "long-active-v",
     enabled = false,
     ingredients =
-	{
-		{"long-active", 1},
-	},
+    {
+        {"long-active", 1},
+    },
     result = "long-active-v"
   },
 }
