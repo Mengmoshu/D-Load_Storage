@@ -175,7 +175,7 @@ data:extend(
       priority = "extra-high",
       width = 200,
       height = 32,
-      shift = {0.28, 0}
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },
@@ -209,7 +209,7 @@ data:extend(
       priority = "extra-high",
       width = 200,
       height = 32,
-      shift = {0.28, 0}
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },
@@ -242,7 +242,7 @@ data:extend(
       priority = "extra-high",
       width = 200,
       height = 32,
-      shift = {0.28, 0}
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },
@@ -275,7 +275,7 @@ data:extend(
       priority = "extra-high",
       width = 200,
       height = 32,
-      shift = {0.28, 0}
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },
