@@ -234,6 +234,7 @@ data:extend(
 	fast_replaceable_group =  "long-chest",
     inventory_size = 180,
     logistic_mode = "storage",
+    max_logistic_slots = 1,
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
     picture =
@@ -369,6 +370,7 @@ data:extend(
 	fast_replaceable_group =  "long-chest",
     inventory_size = 180,
     logistic_mode = "storage",
+    max_logistic_slots = 1,
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
     picture =

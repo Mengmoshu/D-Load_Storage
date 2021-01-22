@@ -7,6 +7,9 @@ Not my work, I just made the basic changes to get the mod working on 0.14. I got
 --Mengmoshu
 
 # Changelog
+#### 0.1.9 -
+* Update for 1.1.x
+
 #### 0.1.8 -
 * Update for 0.18.x
 
