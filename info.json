@@ -1,8 +1,8 @@
 {
 	"name":"D-Load-Storage",
-	"version":"0.1.9",
+	"version":"0.1.10",
 	"title":"D-load-Storage",
-    "author":"Damrus, Mengmoshu(0.14+ port), Maurabau (0.17 port)",
+    "author":"Damrus, Mengmoshu (0.14+ port), Maurabau (0.17 port), Marv (fixed v-sprites)",
 	"homepage":"",
 	"description":"Long chests meant for the unloading of train cargo.",
 	"dependencies": ["base"],

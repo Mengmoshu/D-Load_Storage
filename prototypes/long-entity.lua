@@ -21,7 +21,7 @@ data:extend(
       priority = "extra-high",
       width = 200,
       height = 32,
-      shift = {0.28, 0}
+      shift = {0.125, 0}
     }
   },
    {
@@ -44,8 +44,8 @@ data:extend(
       filename = "__D-Load-Storage__/graphics/entity/long-wood-v.png",
       priority = "extra-high",
       width = 46,
-      height = 158,
-      shift = {0.26, 0}
+      height = 192,
+      shift = {0.125, 0}
     }
   },
     {
@@ -92,8 +92,8 @@ data:extend(
       filename = "__D-Load-Storage__/graphics/entity/long-iron-v.png",
       priority = "extra-high",
       width = 46,
-      height = 158,
-      shift = {0.20, 0}
+      height = 192,
+      shift = {0.125, 0}
     }
   },
   {
@@ -140,8 +140,8 @@ data:extend(
       filename = "__D-Load-Storage__/graphics/entity/long-steel-v.png",
       priority = "extra-high",
       width = 46,
-      height = 158,
-      shift = {0.20, 0}
+      height = 192,
+      shift = {0.125, 0}
     }
   },
   
@@ -310,8 +310,8 @@ data:extend(
       filename = "__D-Load-Storage__/graphics/entity/long-passive-v.png",
       priority = "extra-high",
       width = 38,
-      height = 160,
-      shift = {0.1, 0}
+      height = 192,
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },
@@ -378,8 +378,8 @@ data:extend(
       filename = "__D-Load-Storage__/graphics/entity/long-storage-v.png",
       priority = "extra-high",
 	  width = 38,
-      height = 160,
-      shift = {0.1, 0}
+      height = 192,
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },
@@ -411,8 +411,8 @@ data:extend(
       filename = "__D-Load-Storage__/graphics/entity/long-active-v.png",
       priority = "extra-high",
       width = 38,
-      height = 160,
-      shift = {0.1, 0}
+      height = 192,
+      shift = {0.125, 0}
     },
     circuit_wire_max_distance = 10
   },

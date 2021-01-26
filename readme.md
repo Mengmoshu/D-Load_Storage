@@ -7,6 +7,9 @@ Not my work, I just made the basic changes to get the mod working on 0.14. I got
 --Mengmoshu
 
 # Changelog
+#### 0.1.10 -
+* Marv fixed vertical chest sprites
+
 #### 0.1.9 -
 * Update for 1.1.x
 
@@ -33,5 +36,10 @@ Not my work, I just made the basic changes to get the mod working on 0.14. I got
 ## Todo:
 * Add circuit network support to Wood/Iron/Steel versions
 * Add vanilla circuit connection sprite
-* Lengthen the rest of the chest sprites
 * Create prototypes by copying from `_base_`
+
+## Contributors:
+* Damrus: Original idea and implementation.
+* Mengmoshu: Port to Factorio v0.14.x and ongoing maintenance.
+* Maurabau: Port to Factorio v0.17.x when I was too busy to.
+* Marv: Fixed the vertical chest sprites I'd been neglecting.
